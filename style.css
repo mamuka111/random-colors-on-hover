@@ -1,0 +1,30 @@
+body{
+    background-color: rgba(0, 0, 0, 0.926);
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+#box-container {
+    /* display: grid;
+    grid-template-columns: repeat(22, 1fr);
+    grid-template-rows: repeat(22, 1fr);
+    gap: 5px; */
+    width:770px ;
+    height: 770px;
+    display: flex;
+    flex-wrap: wrap;
+gap: 5px;
+/* margin: 0 auto; */
+transition: 1s;
+background-color: rgba(50, 48, 47, 0);
+  }
+  
+  .box {
+    width: 30px;
+    height: 30px;
+    background-color: rgb(3, 3, 165);
+  
+  }
