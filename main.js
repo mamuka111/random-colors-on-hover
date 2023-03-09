@@ -8,13 +8,14 @@ for (let i = 0; i < 484; i++) {
     audio.play()
     box.style.backgroundColor=getRandomHexCode()
     box.style.transition = "0s"
-    box.style.shadow = "0px 0px 27px 3.5px " + getRandomHexCode();
+    box.style.boxShadow = "0px 0px 27px  " + getRandomHexCode();
     box.style.opacity = "40%"
-    box.style.boxShadow = "0 3px 10px 10px" 
+    // box.style.boxShadow = "0 3px 10px 10px" 
     })
+    
     box.addEventListener("mouseout",function(){
-        box.style.backgroundColor =" rgb(3, 3, 165)"
-        box.style.transition = "3s"
+        box.style.backgroundColor =" rgba(3, 3, 165,0.5)"
+        box.style.transition = "1s"
         box.style.opacity = "100%"
         box.style.boxShadow = "" 
     })   
